@@ -43,3 +43,81 @@
 
   /* Gradients */
 }
+
+/* ==================================Reusable CSS classes===================================== */
+
+/* page */
+.page {
+  padding: 0px 16.5px ;
+}
+
+/* Text */
+
+.headline-text {
+  font-size: 2.783rem;
+  color: var(--secondary-white);
+}
+
+.subheadline-text {
+  font-size: 1.437rem;
+}
+
+.body-text {
+  font-size: 0.808rem;
+}
+
+.labels-text {
+  font-size: 0.718rem;
+}
+
+.code-snippets-text {
+  font-size: 0.629rem;
+}
+
+/* Buttons */
+
+button {
+  display: inline-flex;
+  padding: 10px 14px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.5em;
+  border: none;
+  cursor: pointer;
+}
+
+svg:hover {
+  fill : var(--accent-orange)
+} 
+
+
+
+.primary-button {
+  color: var(--primary-black);
+  background: var(--accent-orange);
+}
+ 
+.default-button {
+  color: var(--secondary-white);
+  background: var(--primary-button);
+}
+
+.ghost-button {
+  color: var(--secondary-white);
+  background: none;
+  border: 1px solid var(--secondary-white);
+}
+
+/* icons */
+
+.icons {
+  width: 17px;
+  height: 17px;
+  cursor: pointer;
+}
+
+/* Containers */
+
+.container {
+  display: flex;
+}

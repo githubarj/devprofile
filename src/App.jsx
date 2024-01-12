@@ -6,12 +6,21 @@ import {
   createRoutesFromElements,
 } from "react-router-dom";
 
+import AppLayout from "./Components/AppLayout/AppLayout";
+
+const routes = createBrowserRouter(
+  createRoutesFromElements(
+    <Route element = {<AppLayout />} path="/">
+        
+    </Route>
+  )
+);
+
 
 function App() {
   return (
-    <div className="app-container" >
-        hello world
-     
+    <div className="app-container">
+       <RouterProvider router={routes} />
     </div>
   );
 }

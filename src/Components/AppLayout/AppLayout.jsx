@@ -4,7 +4,8 @@ import { Outlet } from 'react-router-dom'
 function AppLayout() {
   return (
     <div>
-        <Outlet />
+        
+          <Outlet />
         <Footer />
     </div>
   )
